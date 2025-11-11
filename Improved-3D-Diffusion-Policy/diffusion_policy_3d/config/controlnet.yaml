@@ -184,7 +184,7 @@ stage2:
       set_alpha_to_one: True
       steps_offset: 0
       prediction_type: sample
-    pretrained_unet_path: "/extra/waylen/diffusion_policy/Improved-3D-Diffusion-Policy/Improved-3D-Diffusion-Policy/outputs/2025-10-26/15-58-37/checkpoints/latest.ckpt"     # 由 workspace 自动注入
+    pretrained_unet_path: "/extra/waylen/diffusion_policy/Improved-3D-Diffusion-Policy/Improved-3D-Diffusion-Policy/outputs/2025-10-26/15-58-37/checkpoints/latest.ckpt" 
     stage1_pointcloud_encoder_cfg:
       in_channels: 6
       out_channels: 128

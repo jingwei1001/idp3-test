@@ -137,7 +137,7 @@ class iDP3ControlNetWorkspace(BaseWorkspace):
                             if stage_cfg.training.debug and batch_idx >= 1:
                                 break
                     val_loss = np.sum(val_losses)
-                    step_log["val_loss"] = val_loss
+                    step_log["train_action_mse_error"] = val_loss
                     step_log["score"] = -val_loss
                     cprint(f"[{stage_name}] val_loss: {val_loss:.6f}", "cyan")
 
